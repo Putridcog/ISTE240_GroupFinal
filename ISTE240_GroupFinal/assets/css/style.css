@@ -1,0 +1,143 @@
+/* Navigation */
+#nav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    padding: 15px;
+    color: #835C3B;
+    background-color: #191E22;
+
+    z-index: 999;
+}
+
+#nav-title {
+    float: left;
+    font-family: 'Helvetica';
+    font-size: 220%;
+    line-height: 40px;
+}
+
+#nav-links {
+    float: right;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+#nav-links a {
+    text-decoration: none;
+    color: #835C3B;
+
+    font-family: 'Helvetica';
+    font-size: 110%;
+
+    margin-left: 25px;
+
+}
+
+/* Section */
+section {
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+}
+
+/* Home Section */
+
+#section-destination {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#hero-text {
+    position: relative;
+    top: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+    transform: translateY(-50%);
+
+    color: white;
+    text-align: center;
+}
+
+#hero-title {
+    font-family: 'Helvetica';
+    font-size: 650%;
+}
+
+
+#hero-subtitle {
+    font-family: 'Helvetica';
+    font-size: 20%;
+}
+
+/* Excerpts Section */
+#section-excerpt1 {
+    background-color: #818181;
+    text-align: left;
+}
+
+#section-excerpt2 {
+    background-color: #D9D9D9;
+    text-align: right;
+    float: right;
+    margin-right: auto;
+}
+
+#section-excerpt3 {
+    background-color: #ADADAD;
+    text-align: left;
+}
+
+#about-text {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+    top: 50%;
+    transform: translateY(-50%);
+
+    text-align: center;
+    color: #835C3B;
+}
+
+#about-top-text {
+    font-family: 'Helvetica';
+    font-size: 300%;
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+#about-middle-text {
+    font-family: 'Helvetica';
+    font-size: 350%;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+#about-bottom-text {
+    font-family: '';
+    font-size: 150%;
+    line-height: 180%;
+    width: 50%;
+    color: #191E22;
+
+}
+
+#about-text2 {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+
+    top: 50%;
+    transform: translateX(50%);
+
+    text-align: center;
+    color: #835C3B;
+}
